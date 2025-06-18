@@ -1,1 +1,1 @@
-# shopnow-python-app
+# shopnow-python-app-onprem

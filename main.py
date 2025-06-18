@@ -4,11 +4,11 @@ from flask import Flask
 
 app = Flask(__name__)
 
-app_version = "0.0.0"
+app_version = "1.0.0"
 
 @app.route("/")
 def hello_world():
-    return f"ShopNow application version {app_version}"
+    return f"ShopNow on-prem application version {app_version}"
 
 
 if __name__ == "__main__":
