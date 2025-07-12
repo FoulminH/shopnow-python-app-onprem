@@ -1,14 +1,14 @@
 import os
 
-from flask import Flask
+from flask import Flask, render_template
 
 app = Flask(__name__)
 
 app_version = "1.0.0"
 
 @app.route("/")
-def hello_world():
-    return f"ShopNow on-prem application version {app_version}"
+def home():
+    return render_template('index.html')
 
 
 if __name__ == "__main__":
